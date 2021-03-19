@@ -5,3 +5,16 @@ In order to tackle the set of tasks required by this challenge, I opted out to u
 ### Third-Party Libraries used within this project: 
 in order to provide a clean and easy to maintain solution, I went with flask as a web framework given how clean the flask code base looks. 
  
+
+ ### USAGE :
+ * Run the main script
+ > python3 src/main.py
+
+* Run the unit tests
+
+in one shell run this : 
+> python3 src/main.py
+
+open another shell and run this:
+> python3 tests/unittests.py
+
