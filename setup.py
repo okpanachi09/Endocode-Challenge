@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
 requires = [
-    'flask'
+    'flask',
+    'requests'
 ]
 
 setup(
