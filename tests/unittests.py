@@ -10,7 +10,7 @@ from src.main import *
 
 ABS_URL = "http://127.0.0.1:8080"
 
-class TestRequests(unittest.TestCase):
+class TestEndpoints(unittest.TestCase):
     def test_req_stranger(self):
         # construct the endpoint url
         global ABS_URL
@@ -33,7 +33,7 @@ class TestRequests(unittest.TestCase):
         self.assertEqual(data, "Hello Test Value")
 
 
-class TestUnitFunctionality(unittest.TestCase):
+class TestFunctionality(unittest.TestCase):
     def test_name_split(self):
         name = "TestBValue"
         split_res = split_name_by_uppercase(name)
