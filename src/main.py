@@ -40,7 +40,7 @@ def helloworld():
         print(username)
         username = split_name_by_uppercase(username)
     else:
-        username = ' Stranger'
+        username = 'Stranger'
     return 'Hello ' + username
 
 
